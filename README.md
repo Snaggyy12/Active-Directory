@@ -1,6 +1,56 @@
 # Active-Directory
 Creating Home Lab Running Active Directory
+# Purpose 
+The purpose of this Active Directory home lab is to simulate a corporate IT environment and gain hands-on experience managing and troubleshooting systems within a controlled virtual network.
+This lab replicates real-world administrative responsibilities, including network configuration, user management, automation, and system security to strengthen practical IT and systems administration skills.
+
+By building this lab, it is aimed to:
+
+• Design and deploy a virtualized network using industry-standard tools.
+
+• Implement Active Directory services to manage users, groups, and policies.
+
+• Practice automation with PowerShell to streamline administrative tasks.
+
+• Understand how network routing, DNS, and DHCP work together in a Windows domain.
+
+• Develop critical troubleshooting and problem-solving skills in an enterprise-style setup.
+
+# Skills Acquired
+• Virtualization & Networking – Deployed multiple virtual machines using VirtualBox and configured internal/external networks to simulate an enterprise topology.
+
+• Active Directory Management – Installed and configured Windows Server 2019 as a Domain Controller, created and managed users, groups, and organizational units.
+
+• Automation with PowerShell – Automated user account creation and administrative tasks through scripting, reducing manual workload.
+
+• User Access Control – Configured users with different privileges, applying least-privilege principles and security best practices.
+
+• Network Design & Configuration – Designed a functional network with DHCP, DNS, and remote services for centralized management.
+
+• Traffic Redirection – Configured routing to divert internet traffic from one domain controller to a private network for secure internal access.
+
+• Troubleshooting & Maintenance – Diagnosed and resolved connectivity, authentication, and configuration issues across servers and clients.
+
+# Tools Used
+• VirtualBox – Virtualization platform for creating isolated network environments.
+
+• Windows Server 2019 – Core infrastructure for Active Directory, DNS, and DHCP services.
+
+• Windows 10 Pro – Client machines joined to the domain for user testing.
+
+• Active Directory – Centralized management of users, groups, and network resources.
+
+• PowerShell – Scripting and automation of administrative tasks.
+
+• DHCP & DNS – Automated IP address assignment and name resolution within the domain.
+
+• Remote Services – Managed systems and performed administrative tasks remotely.
+
+• Command Prompt – Used for diagnostics, scripting, and troubleshooting network or domain issues.
+# Screenshots and Explanation
 ![Active Directory](https://github.com/user-attachments/assets/0d24be1d-ddda-4db4-8710-661224848dc2)
+The diagram illustrates the structure of the Active Directory home lab, showing how different components such as domain controllers, client machines, and network services (DNS, DHCP, etc.) are connected within the virtual network. It visually represents how the simulated corporate environment is organized and how devices communicate within the domain
+# Windows 2019 Server Setup
 <img width="778" height="478" alt="image" src="https://github.com/user-attachments/assets/2c5bfb46-cebd-409f-821c-7fe9b69764a3" />
 <img width="778" height="478" alt="image" src="https://github.com/user-attachments/assets/fd032781-2fac-4b5a-b0a3-8abad0ae35ce" />
 <img width="778" height="478" alt="image" src="https://github.com/user-attachments/assets/86583857-e4a8-4e32-8979-17b1bd5b1e69" />
